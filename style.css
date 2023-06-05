@@ -11,7 +11,7 @@ body{
     font-family: 'Mansalva', cursive;
 }
 
-header{
+main{
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -19,7 +19,7 @@ header{
     flex-direction: row;
 }
 
-header h1{
+main h1{
     margin: 0;
     padding: 0;
     font-size: 90px;
@@ -27,7 +27,7 @@ header h1{
     color:#c4c4c4;
    
 }
-header div {
+main div {
     background: #151515;
     padding: 20px;
     max-width: 500px;
@@ -35,14 +35,14 @@ header div {
     transition: 0.5s;
 }
 
-header div:hover{
+main div:hover{
     transform: scale(1.1);
     box-shadow: 40px 40px 0px -30px #3a3a3a,
     35px 0px 0px -20px #252525,
     0px 25px 0 -10px #646464;
 }
 
-header div img{
+main div img{
     width: 100%;
 }
 
